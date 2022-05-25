@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url(./images/background.png)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Mercúrio {
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Mercúrio:hover {
+  width: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.Terra {
+  width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Terra:hover {
+  width: 130px;
 }
+
+.Urano {
+  width: 130px;
+}
+
+.Urano:hover {
+  width: 110px;
+}
+.Netuno {
+  width: 100px;
+}
+
+.Netuno:hover {
+  width: 80px;
+}
+.Saturno {
+  width: 250px;
+}
+
+.Saturno:hover {
+  width: 230px;
+}
+.Júpiter {
+  width: 180px;
+}
+
+.Júpiter:hover {
+  width: 160px;
+}
+
+.Marte {
+  width: 100px;
+}
+
+.Marte:hover {
+  width: 80px;
+}
+
+.Vênus {
+  width: 100px;
+}
+
+.Vênus:hover {
+  width: 80px;
+}
+
+
